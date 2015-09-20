@@ -2,3 +2,4 @@ on init
 
     write /sys/class/android_usb/android0/idVendor 0fce
     write /sys/class/android_usb/android0/idProduct 6182
+    insmod /vendor/lib/modules/texfat.ko
